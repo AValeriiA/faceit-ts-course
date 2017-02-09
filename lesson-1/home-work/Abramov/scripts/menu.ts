@@ -52,6 +52,7 @@ function generateMenu(list: menuList):string {
     if(menu.items) {
       str += generateMenu(menu.items);
     }
+    console.log(menu.items);
     str += `</li>`;
   }
   str += `</ul>`;

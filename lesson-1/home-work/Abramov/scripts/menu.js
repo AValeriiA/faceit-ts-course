@@ -48,6 +48,7 @@ function generateMenu(list) {
         if (menu.items) {
             str += generateMenu(menu.items);
         }
+        console.log(menu.items);
         str += "</li>";
     }
     str += "</ul>";
